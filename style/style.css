@@ -14,3 +14,44 @@ img {
   height: auto;
   object-fit: contain;
 }
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(212, 45%, 89%);
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 22rem;
+  height: auto;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.15);
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-img img {
+  border-radius: 1rem;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.card-description {
+  font-size: 1.15rem;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  line-height: 1.35;
+  margin-bottom: 1.5rem;
+}
