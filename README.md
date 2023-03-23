@@ -4,5 +4,8 @@ i have develope the first project
 
 ## technologies used
 
--html
--css
+- html
+- css
+
+Here my project link
+https://thriving-nasturtium-1997f9.netlify.app
